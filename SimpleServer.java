@@ -18,7 +18,7 @@ public class SimpleServer {
             out.println("HTTP/1.1 200 OK");
             out.println("Content-Type: text/html");
             out.println();
-            out.println("<h1>Hello from Java Web Server!</h1>");
+            out.println("<h1>Hello from Java Web Server! Are you doing good?</h1>");
             out.close();
             in.close();
             client.close();
